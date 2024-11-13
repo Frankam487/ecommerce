@@ -1,6 +1,7 @@
 <?php
 
 require_once"connexion.php";
+
 $erreur="";
 
 if(isset($_POST["connecter"])){
@@ -28,21 +29,7 @@ if(isset($_POST["connecter"])){
 
     }
     $erreur=Connexion($mail,$mdp);
-
-    // if(!empty($_POST["mail"]) || !empty($_POST["mdp"])){
-
-    //     $sql="SELECT * FROM connecte WHERE mail=$mail AND pass=$mdp";
-    //     $req= $cnx->prepare($sql);
-    //     $donnees = $req->execute([$mail,$mdp]);
-        
-    //     if($donnees->rowCount){
-
-    //     }
-
-
-
-
-    
+  
 }
 
 

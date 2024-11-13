@@ -22,6 +22,7 @@ if(isset($_POST['create'])){
     $p = htmlspecialchars($_POST['date']);
     $telephone= htmlspecialchars($_POST['telephone']);
 
+    
 
 if( !empty($nom) || !empty($produit) ||!empty($quantite)|| !empty($p) || !empty($telephone)  ){
 

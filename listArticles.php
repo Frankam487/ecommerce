@@ -17,6 +17,9 @@
       <div class="t_shirt">
         <a href="./catalogue.php"><img src="./images/home.png" height="200px" alt=""></a>
       </div>
+      <div class="maillot">
+        <a href="./maillot.php"><img src="./images/home.png" height="200px" alt=""></a>
+      </div>
       <div class="pentalon"><img src="./images/home.png" height="200px" alt=""></div>
       <div class="culotte"><img src="./images/home.png" height="200px" alt=""></div>
       <div class="pulls"><img src="./images/home.png" height="200px" alt=""></div>

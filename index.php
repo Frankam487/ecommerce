@@ -21,8 +21,8 @@
       <li><a href="">Avis</a></li>
     </ul>
     <div class="btnnn">
-      <a href="">Inscription</a>
-      <a href="./articles.php">Se connecter</a>
+      <a href="./articles.php">Inscription</a>
+      <a href="./connection.php">Se connecter</a>
     </div>
     
    
@@ -31,9 +31,8 @@
   <div class="home" id="home">
     <div class="text">
       <h2>E-COMMERCE</h2>
-      <h1>Tendance & <br>
-        Tranquilité</h1>
-      <a href="./articles.php">COMMANDEZ</a>
+      <h1>Tendance & Tranquilité</h1>
+      <!-- <a href="./articles.php">COMMANDEZ</a> -->
     </div>
     <div class="image"></div>
   </div>
