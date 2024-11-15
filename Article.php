@@ -22,8 +22,9 @@ if(isset($_POST["create"])){
     if(empty($nom)||empty($mail)||empty($mailconfirm)||empty($mdp)||empty($mdpconfirm)){
       return "les mots de passes ne correspondent pas";
     }
+    
     if($mdp!=$mdpconfirm){
-      
+
       return "les mots de passes ne correspondent pas";
 
     }
