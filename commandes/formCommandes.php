@@ -22,7 +22,7 @@ if(isset($_POST['create'])){
     $p = htmlspecialchars($_POST['date']);
     $telephone= htmlspecialchars($_POST['telephone']);
 
-    
+
 
 if( !empty($nom) || !empty($produit) ||!empty($quantite)|| !empty($p) || !empty($telephone)  ){
 
@@ -37,16 +37,7 @@ if( !empty($nom) || !empty($produit) ||!empty($quantite)|| !empty($p) || !empty(
     $message = "Veuillez remplir tous les champs";
 }
   
-
-
-
-
 }
-
-
-
-
-
 
 
 ?>
@@ -71,8 +62,7 @@ if( !empty($nom) || !empty($produit) ||!empty($quantite)|| !empty($p) || !empty(
       <label for="nom">Nom du Client :</label>
       <input type="text" id="nom" name="nom" placeholder="Entrez votre nom">
 
-      <!-- <label for="email">Email :</label>
-      <input type="email" id="email" name="email" placeholder="Entrez votre email" required> -->
+
 
       <label for="produit">Produit (s) :</label>
       <input type="text" id="produit" name="produit" placeholder="Nom du produit">

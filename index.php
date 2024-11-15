@@ -21,8 +21,8 @@
       <li><a href="">Avis</a></li>
     </ul>
     <div class="btnnn">
-      <a href="./articles.php">Inscription</a>
-      <a href="./connection.php">Se connecter</a>
+      <a href="./Article.php">Inscription</a>
+      <a href="./Article.php">Se connecter</a>
     </div>
     
    
@@ -34,8 +34,10 @@
       <h1>Tendance & Tranquilité</h1>
       <!-- <a href="./articles.php">COMMANDEZ</a> -->
     </div>
-    <div class="image"></div>
+<div class="image"></div>
   </div>
+
+  
   <section class="arrivage">
     <h2> <span>Nouvelle_ </span>Arrivage</h2>
     <div class="images">
@@ -182,33 +184,8 @@
       </div>
     </div>
   </div>
-  <div class="commande" id="commande">
-    <div class="text">
-      <h2>Passer votre commande <a href="#commande">ICI</a></h2>
-      <p>Si vous avez d'autres préférence, <br> veuillez la mentionner dans le formulaire ci-dessous.</p>
-    </div>
-    <form action="" method="post">
-
-      <div class="name">
-        <label for="name">Nom*</label>
-        <input type="text" name="name" id="name">
-      </div>
-
-      <div class="tel">
-        <label for="tel">Tel*</label>
-        <input type="number" name="tel" id="tel">
-      </div>
-      <div class="name">
-        <label for="name">Ville*</label>
-        <input type="text" name="name" id="name">
-      </div>
-      <textarea name="message" placeholder="Que voulez-vous réellement?"" ></textarea>
-   <div class=" btns">
-    <input type="submit" name="ok" value="Annuler"/>
-    <input type="reset" name="reset" value="Annuler"/>
-  </div>
-</div>
-</form>
+  
+  
   <div class="footer">
     <div class="un">
       <h2><span>E</span>SHOP</h2>
